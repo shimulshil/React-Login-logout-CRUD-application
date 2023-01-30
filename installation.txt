@@ -1,0 +1,20 @@
+Build a REST API in Node js & Express:
+1.	Create a folder like- NODE_EXPRESS_API
+2.	npm init --y     It will create package.json file
+3.	npm i body-parser cors express mysql nodemon   --------------need to install dependency
+4.	add this line in package.json file line -7: “start”: “nodemon index.js”
+5.	in terminal : npm start    ---------- Server running on the port 5000
+6. 	npm i cors     -for cors error minimized.
+7.    npm install --save bcrypt   ----- in Server side for hashpassword
+
+ 
+In cliend side:--------------------
+1.	npx create-react-app client   -----create React application “Client”
+2.	npm i axios      -----need to install the dependency
+3.	npm i react-router-dom@6   -----need to install the dependency
+4.   npm i react-bootstrap  ---- For bootstap 
+5.	npm i react-toastify      -----need to install the dependency and add this line in app.js
+-	 import { ToastContainer, toast } from 'react-toastify';
+-	 import 'react-toastify/dist/ReactToastify.css';
+6.	npm install bcryptjs --save   ------ client side  for hashpassword
+

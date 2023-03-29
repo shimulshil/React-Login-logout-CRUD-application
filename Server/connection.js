@@ -5,7 +5,7 @@ var connection = mysql.createConnection({
     user:"root",
     password: "root",
     database:"crud"
-})
+});
 
 //--------------------------------------------------------------------------
 // Database connection with Azure Database for Mysql 
